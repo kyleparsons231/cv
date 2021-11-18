@@ -3,72 +3,59 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Kyle Parsons | Personal Website</title>
+  <title>CSS Website | Kyle Parsons</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="10">
-    <tr>
-      <td><img height="160" width="110" src="images/picture.png.jpg" alt="Your browser doesn't support this image"></td>
-      <td>
-        <h2>Kyle Parsons</h2>
-        <p><em>Graduated Computer Science student as of May 2021</em>
-        <p>Looking for entry level programming work</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>White Bear Lake High School</li>
-    <li>Bethel University</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <tr>
-      <th>Dates</th>
-      <th>Work</th>
-    </tr>
-    <tr>
-      <td>August 2016 - May 2021</td>
-      <td>Maitenance/Grill Cook at McDonald's</td>
-    </tr>
-    <tr>
-      <td>June 2021 - October 2021</td>
-      <td>Customer Service Advocate at CHIPS</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <!-- work on skill table begins -->
-  <table cellpspacing="10">
-    <tr>
-      <td><table border="1">
-        <tr>
-          <td>Java</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>C</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-      </table></td>
-      <td><table border="1">
-        <tr>
-          <td>Python</td>
-          <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>SQL</td>
-          <td>⭐⭐⭐</td>
-        </tr>
-      </table></td>
-    </tr>
-  </table>
-  <!-- work on skill table ends -->
-  <hr>
-  <a href="contact-me.html">My Contact Info</a>
+  <div class="topContainer">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Kyle</h1>
+    <h2>a programmer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img height="150" width="120" src="images/picture.jpg" alt="This picture couldn't be rendered">
+      <h2>Hello.</h2>
+      <p>I'm a computer science graduate and looking for programming work.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img height="200" width="500" class="eclipse" src="images/eclipse.jpg" alt="Image couldn't display">
+        <h3>Computer Programming</h3>
+        <p>I'm familiar in areas like Java, C, Python, Github, and Mathematica. I'm currently learning HTML/CSS.</p>
+      </div>
+      <div class="skill-row">
+        <img height="220" width="350" class="Parthenon" src="images/Parthenon.jpg" alt="Image couldn't display">
+        <h3>History</h3>
+        <p>I enjoy studying history. I took classes for Greek Civ, the Cold War, and many more! </p>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <br>
+      <p>If you have any work for me!<p>
+      <p>Feel free to reach out using the link below and I'll get back to you as soon as possible</p>
+      <br><br>
+      <a class="btn" href="mailto:kyleparsons231@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <p class="paragraphFinal">Kyle Parsons | 2021</p>
+  </div>
+
 
 </body>
 
